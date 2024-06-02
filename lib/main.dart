@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:media_player_app/screen/provider/image_provider.dart';
-import 'package:media_player_app/screen/view/home_screen.dart';
+import 'package:media_player_app/screen/videoplayer/view/home_screen.dart';
 import 'package:provider/provider.dart';
+
+import 'screen/mediaplayer/provider/image_provider.dart';
 
 void main() {
   runApp(MultiProvider(providers: [
@@ -20,8 +21,11 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Home_Screen(),
-
+       routes:
+       {
+        //  '/':(context)=> Home_Screen(),
+         '/':(context) =>const Video_player(),
+      },
     );
   }
 }

@@ -1,7 +1,7 @@
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
-import 'package:media_player_app/screen/model/img_list.dart';
-import 'package:media_player_app/screen/provider/image_provider.dart';
+import 'package:media_player_app/screen/mediaplayer/model/img_list.dart';
+import 'package:media_player_app/screen/mediaplayer/provider/image_provider.dart';
 import 'package:provider/provider.dart';
 
 class carousel_slider extends StatelessWidget {

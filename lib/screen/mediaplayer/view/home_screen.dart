@@ -2,10 +2,9 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import 'package:media_player_app/screen/model/color_gradient_list.dart';
-import 'package:media_player_app/screen/provider/image_provider.dart';
-
-import 'package:media_player_app/screen/view/componnets/carousel_slider.dart';
+import 'package:media_player_app/screen/mediaplayer/model/color_gradient_list.dart';
+import 'package:media_player_app/screen/mediaplayer/provider/image_provider.dart';
+import 'package:media_player_app/screen/mediaplayer/view/componnets/carousel_slider.dart';
 import 'package:provider/provider.dart';
 
 class Home_Screen extends StatelessWidget {
