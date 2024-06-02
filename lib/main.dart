@@ -1,8 +1,15 @@
 import 'package:flutter/material.dart';
+import 'package:media_player_app/screen/provider/image_provider.dart';
 import 'package:media_player_app/screen/view/home_screen.dart';
+import 'package:provider/provider.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(MultiProvider(providers: [
+    ChangeNotifierProvider(create: (context) => image_provider(),)
+  ],
+    child: const MyApp(),
+  )
+  );
 }
 
 class MyApp extends StatelessWidget {
