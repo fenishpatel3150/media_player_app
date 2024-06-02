@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:media_player_app/screen/videoplayer/view/home_screen.dart';
+import 'package:media_player_app/screen/mediaplayer/view/home_screen.dart';
 import 'package:provider/provider.dart';
 
 import 'screen/mediaplayer/provider/image_provider.dart';
@@ -23,8 +23,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
        routes:
        {
-        //  '/':(context)=> Home_Screen(),
-         '/':(context) =>const Video_player(),
+         '/':(context)=> Home_Screen(),
       },
     );
   }
